@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Vector.Helper">
+    <ContentView.Content>
+        <ScrollView>
+            <StackLayout x:Name="items" BackgroundColor="#101010"/>
+        </ScrollView>
+    </ContentView.Content>
+
+</ContentView>

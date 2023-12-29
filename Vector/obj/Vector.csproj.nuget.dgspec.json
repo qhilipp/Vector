@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/philipp/Desktop/Vector/Vector/Vector/Vector.csproj": {}
+  },
+  "projects": {
+    "/Users/philipp/Desktop/Vector/Vector/Vector/Vector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/philipp/Desktop/Vector/Vector/Vector/Vector.csproj",
+        "projectName": "Vector",
+        "projectPath": "/Users/philipp/Desktop/Vector/Vector/Vector/Vector.csproj",
+        "packagesPath": "/Users/philipp/.nuget/packages/",
+        "outputPath": "/Users/philipp/Desktop/Vector/Vector/Vector/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/philipp/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.92, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.80.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
